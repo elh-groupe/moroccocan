@@ -398,9 +398,9 @@ function ticks(){
 var TICKS="";
 
 /* échéances */
-var ORD={encours:0,afaire:1,termine:2};
+var ORD={termine:0,encours:1,afaire:2};
 function cmpTasks(a,b){
-  var o=(ORD[a.statut]!==undefined?ORD[a.statut]:1)-(ORD[b.statut]!==undefined?ORD[b.statut]:1);
+  var o=(ORD[a.statut]!==undefined?ORD[a.statut]:2)-(ORD[b.statut]!==undefined?ORD[b.statut]:2);
   if(o)return o;
   var ea=a.echeance||"9999", eb=b.echeance||"9999";
   if(ea!==eb)return ea<eb?-1:1;
