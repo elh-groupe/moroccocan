@@ -1,12 +1,4 @@
-<!doctype html>
-<html lang="fr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style>
-</head>
-<body>
-<title>Suivi Moroccocan</title>
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>[hidden]{display:none!important}body{margin:0}img{max-width:100%}</style></head><body><title>Suivi Moroccocan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -377,7 +369,7 @@ body:has(#reader:not([hidden])){overflow:hidden}
    pole: production | cm | ads | impression
    statut: termine | encours | afaire
    date: AAAA-MM-JJ                                               */
-var LAST_UPDATE = "21 octobre 2026";
+var LAST_UPDATE = "31 octobre 2026";
 var TASKS = [
   {pole:"cm", date:"2026-10-18", titre:"Création du compte Snapchat", statut:"termine", auteur:"Ryhab", note:"Compte Snapchat créé, nom d'utilisateur : moroccocan26."},
   {pole:"cm", date:"2026-10-18", titre:"Calendrier mensuel des posts et validation du feed", statut:"afaire", echeance:"2026-10-22", note:"Calendrier mensuel des posts de Moroccocan sur Instagram, LinkedIn et Snapchat. Validation du feed ensemble."},
@@ -385,8 +377,8 @@ var TASKS = [
   {pole:"cm", date:"2026-10-16", titre:"Propositions de feed Instagram", statut:"termine", auteur:"Jihane", note:"Quatre grilles de neuf publications pour le feed Instagram.", doc:"feed"},
   {pole:"ads", date:"2026-10-18", titre:"Stratégie de sponsorisation mensuelle Instagram et Snapchat", statut:"termine", auteur:"André", note:"Plan en deux temps : test de 500 € pendant 7 jours, puis lancement d'environ 2 000 € par mois. Avatars de ciblage, tests A/B et budget par campagne.", doc:"plan"},
   {pole:"ads", date:"2026-10-19", titre:"Stratégie de référencement du site moroccocan.co et de LinkedIn", statut:"termine", auteur:"Asma", note:"Stratégie SEO de moroccocan.co : état des lieux Search Console, actions réalisées et plan de la suite.", doc:"seo"},
-  {pole:"impression", date:"2026-10-18", titre:"Impressions pour le salon · Étape 1 : conception graphique", statut:"encours", resp:"Abderahmane", echeance:"2026-10-26", note:"Création des supports par le graphiste. Les besoins exacts d'impression seront envoyés dans un prochain mail."},
-  {pole:"impression", date:"2026-10-18", titre:"Impressions pour le salon · Étape 2 : impression", statut:"afaire", resp:"Ridouane", echeance:"2026-10-26", note:"Impression des supports une fois la conception terminée, avant le 26 octobre."},
+  {pole:"impression", date:"2026-10-18", titre:"Impressions pour le salon · Étape 1 : conception graphique", statut:"termine", resp:"Abderahmane", note:"Conception graphique terminée."},
+  {pole:"impression", date:"2026-10-18", titre:"Impressions pour le salon · Étape 2 : impression", statut:"termine", resp:"Ridouane", note:"Impression des supports terminée."},
   {pole:"production", date:"2026-10-18", titre:"Shooting ou génération d'images pour les packs", statut:"afaire", resp:"Hamza", note:"À prévoir."}
   /* modèle : { pole:"production", date:"2026-10-18", titre:"", statut:"termine", resp:"", auteur:"", echeance:"2026-10-30", note:"", doc:"" } */
 ];
@@ -656,6 +648,4 @@ function docCard(t){
 buildPoles();
 render();
 </script>
-
-</body>
-</html>
+</body></html>
